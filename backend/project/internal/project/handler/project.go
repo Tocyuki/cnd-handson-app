@@ -13,6 +13,7 @@ import (
 )
 
 var unusedVariable = "this will cause lint error"
+var unusedVariable2 = "this will cause lint error"
 
 type ProjectServiceServer struct {
 	projectpb.UnimplementedProjectServiceServer
