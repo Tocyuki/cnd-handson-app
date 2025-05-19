@@ -12,6 +12,8 @@ import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 
+var unusedVariable = "this will cause lint error"
+
 type ProjectServiceServer struct {
 	projectpb.UnimplementedProjectServiceServer
 }
